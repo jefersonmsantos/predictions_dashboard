@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded',function(){
     
     
     const req = new XMLHttpRequest();
-    req.open('GET','http://ec2-3-22-223-100.us-east-2.compute.amazonaws.com:3000/matches',true);
+    req.open('GET','http://ec2-3-22-223-100.us-east-2.compute.amazonaws.com:3000/matches/',true);
     req.send();
     req.onload=function(){
         const json = JSON.parse(req.responseText);
