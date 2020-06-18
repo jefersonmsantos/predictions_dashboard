@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee Shade">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="css/predictions.css" />
+
+    </head>
+    <style>
+    </style>
+
+    <body>
+        <header id='header'>
+            
+
+            <nav id="navigation">
+                <!--<a class = 'nav-button' id = "Link" href="#">Bets</a>-->
+
+            </nav>
+            
+            <p id='title'>CS:GO Predictions</p>
+
+        </header>
+
+        <div id="svgs">
+            
+            <div id="graph">
+                
+                <div id='graphBox'></div>
+                    <div id='resultContainer'>
+                    
+                        <div class="resultBox">
+                            <p class='resultText'>Correct</p>
+                            <p id = 'correctText' class='resultText'></p>
+                        </div>
+                        <div class="resultBox">
+                            <p class='resultText'>Wrong</p>
+                            <p id = 'wrongText' class='resultText'></p>
+                        </div>
+                        <div class="resultBox">
+                            <p class='resultText'>Hit-rate</p>
+                            <p id = 'hitrateText' class='resultText'></p>
+                        </div>
+                        <div class="resultBox">
+                            <p class='resultText'>Open</p>
+                            <p id = 'openText' class='resultText'></p>
+                        </div>
+                    
+                    </div>
+
+            </div>
+
+            <div id='table'>
+                <p class='title'>Predictions</p>
+                <div id='labels'>
+            
+                    <p class='labelText' id='Date'>Date</p>
+                    <p class='labelText'id='Team1'>Team 1</p>
+                    <p class='labelText'id='Team2'>Team 2</p>
+                    <p class='labelText'id='Tournament'>Tournament</p>
+                    <p class='labelText'id='Prediction'>Prediction</p>
+                    <p class='labelText'id='Result'>Result</p>
+                        
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </body>
+        
+    <script src="js/predictions.js"></script>
+</html>

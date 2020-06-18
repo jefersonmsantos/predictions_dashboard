@@ -1,0 +1,140 @@
+
+#graph{
+    background-color:white;
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-bottom:1.5vw;
+    margin-top:1vw;
+    max-width:91vw;
+    border-color:gray;
+    border-style: solid;
+    border-radius:5px;
+    border-width:thin;
+}
+
+#graphBox{
+    margin-top:1vw;
+    margin-bottom:10px;
+}
+
+#header{
+    margin-top:0;
+    /*margin-bottom:-30px;*/
+}
+
+#labels{
+
+    margin:0.1vw 3vw 0.1vw 3vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 2vw 0 2vw;
+    border-top:gray solid thin;
+    border-bottom:gray solid thin;
+}
+
+.labelText{
+    font-weight:bold;
+    margin:0.8vw 0 0.8vw 0;
+    font-family: 'Poppins';
+}
+
+.matchesContainer{
+    margin-top:500px;
+    margin-left:3vw;
+}
+
+#navigation{
+    text-align:right;
+    margin-right:4vw;
+    margin-top:1vh;
+    
+}
+
+.nav-button{
+    background-color:rgb(110,140,215);
+    padding:2px 5px 2px 5px;
+    color: white;
+    font-size:16;
+    font-family: 'Poppins';
+    text-decoration: none;
+
+}
+
+#table{
+    background-color:white;
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-bottom:3vw;
+    margin-top:1vw;
+    max-width:91vw;
+    border-color:gray;
+    border-style: solid;
+    border-radius:5px;
+    border-width:thin;
+}
+
+#title{
+
+    margin-top:-40px;
+    font-family: 'Bungee Shade';
+    font-size:50;
+    color: rgb(110,140,215);
+    text-align: center;
+    margin-bottom:0;
+    
+}
+
+.resultBox{
+    border-color:gray;
+    border-style: solid;
+    border-radius:5px;
+    border-width:thin;
+    width:8vw;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultContainer{
+    display:block;
+    margin:auto;
+    
+}
+
+#resultContainer{
+
+    margin:0.1vw 3vw 1vw 3vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 3vw 0 3vw;
+}
+
+.resultText{
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-family:"Poppins";
+}
+
+#svgs{
+    display:grid;
+    grid-row: 2;
+    background-color: rgb(237, 240, 240);
+}
+
+.title{
+    margin-left:3vw;
+    font-weight:bold;
+    font-size:24;
+    margin-bottom:1.5vw;
+    margin-top:1.5vw;
+    font-family: 'Poppins';
+}
+
+
+
+
+
+
+
